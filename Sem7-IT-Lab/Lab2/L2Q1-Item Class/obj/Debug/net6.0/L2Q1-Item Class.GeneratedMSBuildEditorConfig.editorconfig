@@ -1,0 +1,11 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = L2Q1_Item_Class
+build_property.ProjectDir = C:\Users\sanja\OneDrive\Desktop\Github 2023\Manipal-CSE\Sem7-IT-Lab\Lab2\L2Q1-Item Class\
