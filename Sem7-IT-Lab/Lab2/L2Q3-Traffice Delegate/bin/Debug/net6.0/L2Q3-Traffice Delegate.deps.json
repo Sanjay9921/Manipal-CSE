@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "L2Q3-Traffice Delegate/1.0.0": {
+        "runtime": {
+          "L2Q3-Traffice Delegate.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "L2Q3-Traffice Delegate/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
