@@ -1,0 +1,42 @@
+//Librarian
+
+CREATE TABLE librarian(
+  lib_id number(5) NOT NULL,
+  lname varchar(100) NOT NULL,
+  password varchar(100) NOT NULL,
+  email varchar(100) NOT NULL,
+  ph_no number(10) NOT NULL,
+   PRIMARY KEY (lib_id)
+);
+
+insert into librarian values(101,'Bernard','dranreb','b@gmail.com',6665651001);
+insert into librarian values(102,'Dolores','serolod','b@gmail.com',3433785691);
+insert into librarian values(103,'Elliot','toille','e@gmail.com',8253192076);
+
+//Books
+
+create table books
+(
+B_id number(10),
+title varchar(40),
+author varchar(20),
+book_section number(10),
+edition number(10),
+publisher varchar(30),
+primary key(B_id));
+
+insert into books values(1010,'Fund. of Comp. Sci.','Jake Paul',4,5,'McGrawHill');
+insert into books values(1053,'Data Structures','Sartaj Singh',2,4,'Goyal');
+insert into books values(1032,'Algorithms','Thomas Cormen',1,10,'Penguin');
+insert into books values(2041,'To Kill a Mockingbird','Harper Lee',5,3,'Random House');
+insert into books values(2063,'Macbeth','William Shakespeare',5,20,'McGrawHill');
+insert into books values(2075,'Fund. Of Psychology','Simon Baker',6,4,'McGrawHill');
+insert into books values(2083,'Database Concepts','Logan Paul',7,6,'Goyal');
+insert into books values(2093,'Literary Analysis','Aditi',10,5,'Manipal Publication');
+insert into books values(1029,'Rocket Science 101','E. Lon Monk',7,3,'Manipal Publication');
+insert into books values(1696,'Mass Transfer','Venkata Acharya',5,2,'Manipal Publication');
+insert into books values(1702,'Conduction','Pochinki',7,2,'Goyal');
+insert into books values(1333,'Mechanics for all','Vrinda Kaul',2,3,'Goyal');
+insert into books values(1414,'Intro to Neurobiology','Abinav Chaterjee',2,4,'Penguin');
+insert into books values(2199,'Data Mining','Megan James',1,4,'Penguin');
+insert into books values(1500,'Machine Learning for dummies','Andrew NG',6,2,'Random House');
