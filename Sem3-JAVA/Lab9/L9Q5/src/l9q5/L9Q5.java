@@ -1,20 +1,19 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
 package l9q5;
 
-/**
- *
- * @author sanja
- */
-public class L9Q5 {
+import LinkedList.*; // custom package for custom generic linked list
 
-    /**
-     * @param args the command line arguments
-     */
+public class L9Q5 {
     public static void main(String[] args) {
-        // TODO code application logic here
+        GenList<Integer> l1 = new GenList<>();
+        GenList<Double> l2 = new GenList<>();
+        GenList<String> l3 = new GenList<>();
+        
+        // Integer List
+        l1.insertFront(10);
+        l1.insertFront(20);
+        l1.insertRear(30);
+        System.out.println(l1); // toString
+        
     }
     
 }
